@@ -137,8 +137,6 @@ class _SelectableTagsState extends State<SelectableTags>
     {
         super.initState();
         _getwidthContainer();
-
-        _tags = widget.tags;
     }
 
 
@@ -161,6 +159,7 @@ class _SelectableTagsState extends State<SelectableTags>
     @override
     Widget build(BuildContext context)
     {
+        _tags = widget.tags;
         // essential to avoid infinite loop of addPostFrameCallback
         if(MediaQuery.of(context).orientation != _orientation || _width==0)
             _getwidthContainer();

@@ -200,8 +200,6 @@ class _InputTagsState extends State<InputTags>
     void initState()
     {
         super.initState();
-
-        _tags = widget.tags;
     }
 
 
@@ -231,6 +229,7 @@ class _InputTagsState extends State<InputTags>
     @override
     Widget build(BuildContext context)
     {
+        _tags = widget.tags;
         // essential to avoid infinite loop of addPostFrameCallback
         if(MediaQuery.of(context).orientation != _orientation || _width==0)
             _getwidthContainer();
@@ -530,4 +529,3 @@ class _InputTagsState extends State<InputTags>
     }
 
 }
-
