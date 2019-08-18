@@ -1,3 +1,31 @@
+## [0.4.3] - 2019-07-28.
+
+* Minor Update Documentation.
+* Fixed some problem.
+* removed the 'position' parameter  in TagsTexField () because it is not essential. the same result can be obtained by setting the verticalDirection and TextDirection parameters in Tags ().
+
+## [0.4.2] - 2019-07-27.
+
+* Update Documentation.
+* General improvement of the code.
+
+## [0.4.1] - 2019-07-27.
+
+* Minor Update Documentation.
+
+## [0.4.0] - 2019-07-27.
+
+* **Improvements, new Structure, new Features and Documentation Updates**
+*
+* `SelectableTags` and `InputTags`have been removed, now there is only one widget. **Tags()**
+* Now it is possible to personalize every single tag, with the possibility of adding icons, images and a removal button.
+* Possibility to display the list with horizontal scroll.
+
+## [0.3.2] - 2019-06-20.
+
+* Issue #14 and #13 fixed.
+* Added `customData` field in Tag Class.
+
 ## [0.3.1] - 2019-05-13.
 
 * General improvement of the code.
